@@ -68,3 +68,30 @@ Expected Outcome:
 - There are few records with UnitPrice<0 and Quantity<0. We need to remove them from the analysis. This could represent cancelled or returned orders.
 
 - There is more than 90% of 'United Kingdom' customers, therefore we will restrict the data to only United Kingdom customers.
+
+# Exploratory Analysis
+- How many products sold every month?
+![download](https://github.com/user-attachments/assets/dcf24cfa-728d-4374-8b8b-6cc322b8ba27)
+Product sold in November has highest quantity that has around 13,41% product sold from all transaction along 1 year. Therefore the business team can increase sales in this month such as promoting new products to customers in this month.
+
+# RFM Analysis
+- Recency Frequency Monetary (RFM)
+- RFM analysis allows you to segment customers by the frequency and value of purchases and identify those customers who spend the most money.
+- Recency — how long it’s been since a customer bought something from us.
+- Frequency — how often a customer buys from us.
+- Monetary value — the total value of purchases a customer has made.
+
+# Modeling Data- Recency Frequency Monetary Quantiles
+- Now we split the metrics into segments using quantiles.
+- We will assign a score from 1 to 4 to each Recency, Frequency and Monetary respectively.
+- 1 is the highest value, and 4 is the lowest value.
+- A final RFM score (Overall Value) is calculated simply by combining individual RFM score numbers.
+
+# Recommendation
+- Recommendation for “Best Customers" segment: Focus on increasing customer purchases therefore it is necessary to form a cross/Up Selling Strategy.
+
+- Recommendation for “Loyal Customers" segment: The business team must optimize the budget campaign and the time campaign for this customer segment in order to maintain their loyalty and increase their value.
+
+- Recommendation for “Almost Lost" segment: This customer segment is very at risk for churn, so focus on activating customers and making repurchases by forming a Reactivation Strategy, Retention Strategy.
+
+- Recommendation for “Lost Cheap Customers" segment: This customer segment has churned, so the focus of the campaign is to reactivate the customer by forming a Reactivation strategy.
